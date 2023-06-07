@@ -1,9 +1,10 @@
-###rsschool-cv ________________
-**Makaravets Maksim** ________________ 
+###rsschool-cv
+**Makaravets Maksim**
 ###Contacts *Location: Poland,Warszhaw 
 *Phone number: +48452944975 *Email: mmakarovets@gmail.com 
-*GitHub: makaravets98 ###About myself ________________ I am good team worker. I like to learn IT and English language
-**Skills** ____________ 
+*GitHub: makaravets98 
+###About myself: I am good team worker. I like to learn IT and English language
+**Skills**
 *HTML(Elementary) 
 *CSS(Elementary) 
 *JS(Elementary) 
@@ -17,6 +18,6 @@ return a+b;
 }
 let result = sum(1,2);
 alert(result);
-###Experience ____________ I studied in 2018 to be a programmer 
-###Education ___________ *University:GGMK,BNUFS 
+###Experience: I studied in 2018 to be a programmer 
+###Education: *University:GGMK,BNUFS 
 ###English A2(I study English with my teacher)
