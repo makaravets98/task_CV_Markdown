@@ -1,0 +1,100 @@
+.body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+.header_block
+{
+    background-color: black;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navigation_block
+{
+    background-color: blue;
+    min-width: 100vh;
+    height: 50px;
+}
+.photo_block
+{
+    background-color: aqua;
+    width: 400px;
+
+}
+.about_me_block
+{
+    background-color: brown;
+    width: 600px;
+}
+
+.information_block
+{
+    background-color: wheat;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ed-ho-block
+{
+    background-color: chartreuse;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.ex-sk-co-block
+{
+    background-color: cyan;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.education_block
+{
+    background-color: black;
+    height: 350px;
+    width: 350px;
+
+
+}
+.hobbies_block
+{
+    background-color: cyan;
+    height: 350px;
+    width: 350px;
+}
+.experience_block
+{
+    background-color: darkslategrey;
+    height: 200px;
+    width: 500px;
+}
+.skills_block
+{
+    background-color: greenyellow;
+    height: 200px;
+    width: 500px;
+}
+.contacts_block
+{
+    background-color: black;
+    height: 200px;
+    width: 500px;
+}
+.footer_block
+{
+    background-color: black;
+    height: 100px;
+}
