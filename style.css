@@ -16,7 +16,7 @@ html {
 
 .navigation_block
 {
-    background-color: blue;
+    background-color: black;
     height: 50px;
     display: flex;
     justify-content: space-around;
@@ -33,11 +33,12 @@ html {
 .list_item
 {
    padding-right: 120px;
+   
 }
 .navigation_link
 {
     text-decoration: none;
-    color:black;
+    color: white;
 }
 
 .header_block
@@ -48,17 +49,48 @@ html {
     flex-direction: row;
     justify-content: space-around;
 }
+.photo_My
+{
+    width: 400px;
+    height: 300px;
+}
 
 .photo_block
 {
-    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
     width: 400px;
-
 }
 .about_me_block
 {
-    background-color: brown;
+    background-color: black;
     width: 600px;
+}
+
+._about_p_FIO
+{
+    margin: 0;
+    margin-top: 88px;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: white;
+}
+
+._about_p_JUNIOR
+{
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    color: white;
+    border-bottom: 5px solid white;
+}
+.about_me_text
+{
+    color: white;
 }
 
 .information_block
