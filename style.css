@@ -131,15 +131,20 @@ html {
     align-items: center;
     text-transform: uppercase;
 }
+.exp_text
+{
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
 .ex-sk-co-block
 {
-    background-color: cyan;
     width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
 }
 .small_photo
 {
@@ -166,21 +171,19 @@ html {
 }
 .experience_block
 {
-    background-color: darkslategrey;
-    height: 200px;
-    width: 500px;
+    width: 600px;
 }
 .skills_block
 {
     background-color: greenyellow;
-    height: 200px;
-    width: 500px;
+    
+    width: 600px;
 }
-.contacts_block
+.languages_block
 {
     background-color: black;
-    height: 200px;
-    width: 500px;
+    
+    width: 600px;
 }
 .footer_block
 {
