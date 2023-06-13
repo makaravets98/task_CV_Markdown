@@ -60,7 +60,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(42, 41, 41);
     width: 400px;
 }
 .about_me_block
@@ -95,20 +95,41 @@ html {
 
 .information_block
 {
-    background-color: wheat;
-    height: 900px;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.ed-ho-block
+.ed-ho-co-block
 {
-    background-color: chartreuse;
+    background-color: rgb(75, 74, 74);;
     width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+.education_text
+{
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: black;
+}
+.courses_text
+{
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.hobbies_text
+{
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
 }
 .ex-sk-co-block
 {
@@ -120,19 +141,27 @@ html {
     align-items: center;
     
 }
-
+.small_photo
+{
+    padding-right: 20px;
+}
+.about_education
+{
+    color: #4b6154;
+    line-height: 1;
+}
 .education_block
 {
-    background-color: black;
-    height: 350px;
     width: 350px;
-
-
+    border-bottom: 5px solid white;
+}
+.courses_block
+{
+    width: 350px;
+    border-bottom: 5px solid white;
 }
 .hobbies_block
 {
-    background-color: cyan;
-    height: 350px;
     width: 350px;
 }
 .experience_block
