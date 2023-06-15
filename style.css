@@ -203,8 +203,6 @@ html {
 }
 .skills_block
 {
-    background-color: greenyellow;
-    
     width: 600px;
 }
 .skill_block_text
@@ -224,4 +222,62 @@ html {
 {
     background-color: black;
     height: 100px;
+}
+
+.div_scores
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Logo
+{
+    display: flex;
+    align-items: center;
+}
+.div_section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+.section_item::before 
+{
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #4b6154;
+    border-radius: 50%;
+    background-color: #4b6154;
+}
+.section-item-1::before
+ {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #64ac8f;
+    border-radius: 50%;
+    background-color: #64ac8f;
+}
+.section-item-1 {
+    position: relative;
+    padding-left: 17px;
+}
+.section_item {
+    position: relative;
+    padding-left: 17px;
+}
+.skill_list
+{
+    list-style: none;
+}
+.photo_JS
+{
+    margin-right: 15px;
 }
