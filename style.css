@@ -1,0 +1,286 @@
+html {
+    scroll-behavior: smooth;
+    }
+.body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.navigation_block
+{
+   
+    background-color: rgb(30 30 30);
+    
+}
+
+.list_item:hover {
+    background-color: rgb(42, 41, 41);
+    opacity: 2;
+}
+.navigation_list
+{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list_item
+{
+   margin-top: 15px;
+   margin-bottom: 15px;
+   
+}
+.navigation_link
+{
+    text-decoration: none;
+    color: white;
+}
+
+.header_block
+{
+    background-color: rgb(30 30 30);
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.photo_My
+{
+    width: 400px;
+    height: 300px;
+}
+
+.photo_block
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.about_me_block
+{
+    background-color: rgb(30 30 30);
+    width: 600px;
+}
+
+._about_p_FIO
+{
+    margin: 0;
+    margin-top: 48px;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: white;
+}
+
+._about_p_JUNIOR
+{
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    color: white;
+    background: rgb(42, 41, 41);
+    width: 460px;
+}
+.about_me_text
+{
+    color: white;
+}
+.contacts
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contacts_link
+{
+    color: white;
+
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    color: white;
+    background: rgb(42, 41, 41);
+    width: 140px;
+}
+.about_me_phone
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.information_block
+{
+    background-color: rgb(245, 245, 220);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ed-ho-co-block
+{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.education_text
+{
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: black;
+}
+.courses_text
+{
+   
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.hobbies_text
+{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.exp_text
+{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.ex-sk-co-block
+{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.small_photo
+{
+    padding-right: 20px;
+}
+.about_education
+{
+    color: #4b6154;
+    line-height: 1;
+}
+.education_block
+{
+    width: 600px;
+    
+}
+.courses_block
+{
+    width: 600px;
+
+}
+.hobbies_block
+{
+    width: 350px;
+}
+.experience_block
+{
+    width: 600px;
+}
+.skills_block
+{
+    width: 350px;
+    border-bottom: 1px solid rgb(30 30 30);
+    
+    
+
+}
+.skill_block_text
+{
+    
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.languages_block
+{
+    background-color: black;
+    
+    width: 600px;
+}
+
+
+.div_scores
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Logo
+{
+    display: flex;
+    align-items: center;
+}
+.div_section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+.section_item::before 
+{
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(30 30 30);
+    border-radius: 50%;
+    background-color: rgb(30 30 30);
+}
+.section-item-1::before
+ {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(42, 41, 41);;
+    border-radius: 50%;
+}
+.section-item-1 {
+    position: relative;
+    padding-left: 17px;
+}
+.section_item {
+    position: relative;
+    padding-left: 17px;
+}
+.skill_list
+{
+    list-style: none;
+    padding-left: 0px;
+}
+.photo_JS
+{
+    margin-right: 15px;
+}
+.copyright_1
+{
+    color: white;
+}
+.footer_block
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(30 30 30);
+}
